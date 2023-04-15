@@ -1,2 +1,0 @@
-# BasicsNodeJs
- lerning perpose
