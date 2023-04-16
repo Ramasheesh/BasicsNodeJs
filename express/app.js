@@ -1,10 +1,10 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+const app = express()
+const port = 100
 
-app.get('/',(req,res)=>{
-    res.writeHead(200,({'content-type':'text/html'}))
-    // res.send("hello sir");
-    res.end("done")
-}).listen(4000,()=>{
-    console.log("listening.....");
+app.get('/',(req,res) =>{
+    res.send("<h1>Response mil kya?</h1>");
+})
+app.listen(port,() =>{
+    console.log("code chal raha hai sir Port no",port);
 })
