@@ -1,0 +1,7 @@
+lecture 1:-
+a:- window globle excution
+b:-let var const
+c:-shadowing
+d:-closures
+e:-block & TDZ
+f:- bind and call
