@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
-const mail = "gavic76183@carsik.com";
-const pass = "abcdef";
+const mail = "merode8538@aosod.com";
+const pass = "Sg@17338";
 const code = require('./code');
 
 let browserPromise = puppeteer.launch({ headless: false, defaultViewport: null,args: ['--start-fullscreen'] });
